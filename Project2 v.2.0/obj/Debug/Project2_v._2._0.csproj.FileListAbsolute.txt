@@ -1,0 +1,2 @@
+C:\Users\bucherj\documents\visual studio 2017\Projects\Project2 v.2.0\Project2 v.2.0\obj\Debug\Project2 v.2.0.dll
+C:\Users\bucherj\documents\visual studio 2017\Projects\Project2 v.2.0\Project2 v.2.0\obj\Debug\Project2 v.2.0.pdb

@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <script src="~/Scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#btn1').on('click', function () {
+                $('#quantityContainer').html(
+                        @{
+                            //This updates the ShoppingCart link with a counter representing the number of current items 
+                            //in the ShoppingCart
+                            int input = 0;
+                            if(Session["Quantity"] != null)
+                            {
+                                input = Convert.ToInt32(Session["Quantity"].ToString());
+                            }
+                            string compoundPrint = "(" + input + ") Shopping Cart";
+                        }
+
+                        '<li>@Html.ActionLink(compoundPrint, "Cart", "ShoppingCart")</li>');
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Title: "StoreFront" that takes you to the Homepage -->
+            @Html.ActionLink("StoreFront", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+            <!-- If a user is logged in, then display their name (which also links to their profile) and an option to logout -->
+            @if (Session["UserID"] != null)
+                {
+                string temp = Session["UserName"].ToString();
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- Go to the user's profile page -->
+                        <li> @Html.ActionLink(temp, "Profile", "Users") </li>
+                        <!-- Log the user out -->
+                        <li>@Html.ActionLink("Logout", "Logout", "Users")</li>
+                    </ul>
+                </div>
+            }
+            <!-- If a user is not logged in, then display the options to register for an account or login -->
+            @if (Session["UserID"] == null)
+                {
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- Take the user to the registration page -->
+                        <li>@Html.ActionLink("Register", "Register", "Users")</li>
+                        <!-- Take the user to the login page -->
+                        <li>@Html.ActionLink("Login", "Login", "Users")</li>
+                    </ul>
+                </div>
+            }
+            <!-- If a user is logged in, then display the options to go to the Homepage, the list of products, and profile -->
+            @if (Session["UserID"] != null)
+            {
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Take the user to the home page -->
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <!-- Take the user to the search page that returns the store's various products -->
+                        <li>@Html.ActionLink("Search", "Index", "Products")</li>
+                        <!-- Go to the user's profile page -->
+                        <li>@Html.ActionLink("Profile", "Profile", "Users")</li>
+
+                        <!-- If the current user is an Admin, then display the extra options to view the current orders in the DB -->
+                        @if (Convert.ToInt32(Session["IsAdmin"]) == 1)
+                        {
+                            <!-- Take the user to the Order Index page -->
+                            <li>@Html.ActionLink("Orders", "Index", "Order")</li>
+                        }
+
+                    </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            @{
+                                <!-- creates a compound string to display the ShoppingCart and is current number of items -->
+                                int number = 0;
+                                if (Session["Quantity"] != null)
+                                {
+                                    number = Convert.ToInt32(Session["Quantity"].ToString());
+                                }
+                                string compound = "(" + number + ") Shopping Cart";
+                            }
+                            <!-- Take the user to their Shopping Cart -->
+                            <li id="quantityContainer">
+                                @Html.ActionLink(compound, "Cart", "ShoppingCart")
+                            </li>
+                        </ul>
+                </div>
+            }
+            <!-- If a user is not logged in, remove the option to go to the profile page and instead only give options for the 
+                Homepage and product list pages -->
+            @if (Session["UserID"] == null)
+            {
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Take the user to the home page -->
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <!-- Take the user to the search page that returns the store's various products -->
+                        <li>@Html.ActionLink("Search", "Index", "Products")</li>
+                    </ul>
+                </div>
+            }
+
+        </div>
+    </div>
+    <div class="container body-content">
+        <!-- Body Content -->
+        @RenderBody()
+        <hr />
+        <footer>
+            <!-- Footer Content -->
+            <p>&copy; @DateTime.Now.Year - My StoreFront Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

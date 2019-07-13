@@ -1,0 +1,165 @@
+﻿*
+{
+  /* 
+    Defines the main font used throughout the entire site 
+  */
+  font-family: Verdana, Arial, Sans-Serif;
+}
+
+body
+{
+  /* 
+    Clears white space around the body and sets the background color to a dark grey.
+  */
+  margin: 0;
+  background-color: #464646;
+}
+
+a
+{
+  /*
+    Clears the underline on normal links, and gives them #da6637 as the text color.
+  */
+  color: #da6637;
+  text-decoration: none;
+}
+
+a:hover
+{
+  /*
+    Underlines links when the user hovers the mouse over them.
+  */
+  text-decoration: underline;
+}
+
+#MenuWrapper a
+{
+    color: white;
+}
+
+h1
+{
+  /*
+    Makes h1 elements smaller than their browser default.
+  */
+  font-size: 20px;
+}
+
+h2 {
+    /*
+    Makes h2 elements smaller than their browser default.
+  */
+    font-size: 15px;
+}
+
+#Header {
+    /*
+    Sets the background of the header to the same color as the right-hand side of the 
+    header image. This way, the header can expand to the right.
+    The margin at the bottom creates some room between the header and the menu and the main content.
+  */
+    background-color: #98e0ed;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+#Header a
+{
+  /*
+    The #Header a is nested in the #Header. It provides a link to the homepage,
+    and sets the header image background.
+  */
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 31px;
+  display: block;  
+}
+
+#MenuWrapper {
+    /*
+    The menu spans the page width, right below the header.
+    At the top and left a few pixels padding is applied to create some room.
+  */
+    background-color: #98e0ed;
+    text-align: center;
+    height: 36px;
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.FirstLevelMenuItems
+{
+    padding-top: 10px;
+}
+
+#MainContent {
+    /*
+
+  */
+    background-color: #ebe8e6;
+    border-color: white;
+    border: 2px;
+    font-size: 0.8em;
+    color: black;
+    /* height: 685px; */
+    min-height: 730px;
+    padding: 10px;
+    margin: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#Sidebar {
+    /*
+
+  */
+    color: white;
+    background-color: #ebe8e6;
+    border-color: white;
+    border: 2px;
+    font-size: 0.8em;
+    color: black;
+    width: 745px;
+    height: 700px;
+    min-height: 370px;
+    padding: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#Footer {
+    /*
+    The footer is positioned below all other content.
+    At the top, it gets a border with a dashed style, while all other sides have no border.
+  */
+    text-align: center;
+    border-top: 2px dashed gray;
+    color: white;
+    height: 27px;
+    clear: both;
+    background-color: #212020;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+.Introduction
+{
+  font-style: italic;
+}
+
+button
+{
+    align-content: center;
+    text-align: center;
+}
+

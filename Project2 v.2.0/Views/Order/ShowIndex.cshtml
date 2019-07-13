@@ -1,0 +1,75 @@
+﻿@model IPagedList<Store.Data.Order>
+
+@using PagedList;
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layouts/_Layout1.cshtml";
+}
+
+<h2>Orders</h2>
+<!-- Listing of all Orders in the DB -->
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().OrderID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().User.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().OrderDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Total)
+        </th>
+        <th>
+            @Html.DisplayName("Status")
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <!-- OrderID -->
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderID)
+        </td>
+        <!-- UserName -->
+        <td>
+            @Html.DisplayFor(modelItem => item.User.UserName)
+        </td>
+        <!-- OrderDate -->
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderDate)
+        </td>
+        <!-- Total -->
+        <td>
+            @Html.DisplayFor(modelItem => item.Total)
+        </td>
+        <!-- StatusDescription -->
+        <td>
+            @Html.DisplayFor(modelItem => item.Status.StatusDescription)
+        </td>
+        <!-- Edit Link -->
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.OrderID }) 
+        </td>
+    </tr>
+}
+
+</table>
+<!-- If no items exist in the model (list of Orders) then display "No results" and leave out the Paged List controls -->
+@if (Model.Count() == 0)
+{
+    <br />
+    <h5>No Results</h5>
+    <br />
+}
+else
+{
+    <!-- Else there are orders in the model. Include the Paged List controls  -->
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+}

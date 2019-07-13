@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="422eafbe52cd487c94c161492c477474" Name="Diagram1">
+        <EntityTypeShape EntityType="MyDBModel.Address" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Order" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.OrderProduct" Width="1.5" PointX="7.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Product" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Role" Width="1.5" PointX="7.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.ShoppingCart" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.ShoppingCartProduct" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.State" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.Status" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.sysdiagram" Width="1.5" PointX="7.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDBModel.User" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <AssociationConnector Association="MyDBModel.FK_Address____State" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Address____User" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Order____Address" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Order____Status" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_Order____User" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_OrderProduct____Order" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_OrderProduct____Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_ShoppingCartProduct____Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_ShoppingCart____User" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDBModel.FK_ShoppingCartProduct____ShoppingCart" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

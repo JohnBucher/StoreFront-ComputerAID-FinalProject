@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<images>
+  <image>
+    <filename>1984.jpg</filename>
+    <description>George Orwell</description>
+  </image>
+  
+  <image>
+    <filename>Alchemyst.jpg</filename>
+    <description>Michael Scott</description>
+  </image>
+  
+  <image>
+    <filename>AnimalFarm.jpg</filename>
+    <description>George Orwell</description>
+  </image>
+  
+  <image>
+    <filename>ArtemisFowl.jpg</filename>
+    <description>Eoin Colfer</description>
+  </image>
+  
+  <image>
+    <filename>BraveNewWorld.jpg</filename>
+    <description>Aldous Huxley</description>
+  </image>
+  
+  <image>
+    <filename>Eragon.jpg</filename>
+    <description>Christopher Paolini</description>
+  </image>
+  
+  <image>
+    <filename>HarryPotterCursedChild.jpg</filename>
+    <description>J. K. Rowling</description>
+  </image>
+  
+  <image>
+    <filename>HungerGames.jpg</filename>
+    <description>Suzanne Collins</description>
+  </image>
+  
+  <image>
+    <filename>LightningThief.jpg</filename>
+    <description>Rick Riordan</description>
+  </image>
+  
+  <image>
+    <filename>LordFlies.jpg</filename>
+    <description>William Golding</description>
+  </image>
+
+  <image>
+    <filename>ReadyPlayer.jpg</filename>
+    <description>Ernest Cline</description>
+  </image>
+  
+  <image>
+    <filename>TheLostHero.jpg</filename>
+    <description>Rick Riordan</description>
+  </image>
+  
+  <image>
+    <filename>TheRoad.jpg</filename>
+    <description>Cormac McCarthy</description>
+  </image>
+</images>

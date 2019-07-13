@@ -1,0 +1,22 @@
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\bin\Debug\Store.Data.dll.config
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\bin\Debug\Store.Data.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\bin\Debug\Store.Data.pdb
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\bin\Debug\EntityFramework.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\bin\Debug\EntityFramework.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\obj\Debug\Store.Data.csprojResolveAssemblyReference.cache
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\obj\Debug\Store.Data.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\Store.Data\obj\Debug\Store.Data.pdb
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\bin\Debug\Store.Data.dll.config
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\bin\Debug\Store.Data.dll
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\bin\Debug\Store.Data.pdb
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\bin\Debug\EntityFramework.dll
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\bin\Debug\EntityFramework.xml
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\obj\Debug\Store.Data.csprojAssemblyReference.cache
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\obj\Debug\Store.Data.csproj.CoreCompileInputs.cache
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\obj\Debug\Store.Data.csproj.CopyComplete
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\obj\Debug\Store.Data.dll
+E:\ComputerAID Files\Project2 v.2.0\Store.Data\obj\Debug\Store.Data.pdb

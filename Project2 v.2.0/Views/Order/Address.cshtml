@@ -1,0 +1,56 @@
+﻿@using Store.Data;
+@using System.Collections;
+@model Store.Data.Address
+
+@{
+    ViewBag.Title = "Address";
+    Layout = "~/Views/Layouts/_Layout1.cshtml";
+}
+
+@section scripts
+{
+    <script>
+        //Always add the New Address option onto the end of the Address list and give it a value of: "999999999"
+        $('#AddressID').append($('<option value="999999999" onchange="show(this.value)">Enter New Address</option>'));
+
+        function show(aval) {
+            if (aval == 999999999) {
+                //If the last option is chosen, then show the hidden section
+                $("#enterPartialAddress").removeClass("hidden");
+            }
+            else {
+                //If the last option is NOT chosen, then hide the hidden section
+                $("#enterPartialAddress").addClass("hidden");
+            }
+        }
+
+    </script>
+}
+<h2>Address Selection</h2>
+
+@using (Html.BeginForm("ConfirmOrder", "Order", FormMethod.Post))
+{
+    <br />
+        <div>
+            <!-- DropDown list of Address options -->
+            @Html.DropDownListFor(model => model.AddressID, (IEnumerable<SelectListItem>)ViewBag.AddressList, htmlAttributes: new { @onchange = "show(this.value)" })
+            <div id="submitButton">
+                <input id="submit" type="submit" value="Submit" />
+                <br style="clear:both" />
+            </div>
+        </div>
+        <br />
+}
+
+<br />
+<!-- Partial view to be displayed below the DropDown list on the event of "Enter New Address" being chosen -->
+<div id="enterPartialAddress" class="hidden">
+    @{
+        MyDataEntities db = new MyDataEntities();
+        var a = db.States.ToList();
+        //Add the state list to ViewData to be used for the DropDown in enterAddress
+        ViewData["States"] = new SelectList(a, "StateID", "StateAbbrev");
+    }
+    <!-- Render the partial view -->
+    @Html.Partial("enterAddress")
+</div>

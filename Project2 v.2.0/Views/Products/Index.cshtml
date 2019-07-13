@@ -1,0 +1,115 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+
+@model IPagedList<Store.Data.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layouts/_Layout1.cshtml";
+}
+
+@section scripts
+{
+    <script>
+        function AddItem(elem) {
+            //This Ajax will cal the OrderNow method and will add the selected item to the user's cart
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("OrderNow", "ShoppingCart")',
+                        data: { id: elem },
+                        success: function (data) {  }
+            });
+            //-----------------------------------------------------------------------------------------------------------
+            //After a change, this Ajax will update the Shopping Cart quantity count that is displayed alongside the Shopping Cart Button
+            $.ajax({
+                type: 'POST',
+                        url: '@Url.Action("UpdateQuantity", "ShoppingCart")',
+                        data: { id: elem },
+                        success: function (data) {
+                            //Change the Shopping Cart HTML to display the updated quantity
+                            $('#quantityContainer').html('<a href="/ShoppingCart/Cart">(' + data.UpQuantity + ') Shopping Cart</a>');
+                        }
+            });
+        };
+    </script>
+}
+
+<h2>Product List</h2>
+
+@using (Html.BeginForm("Index", "Products", FormMethod.Get))
+{
+    <b>Search:</b>
+    <br />
+    <!-- Search Textbox -->
+    @Html.TextBox("search") <input type="submit" value="Search Products" />
+    <br />
+    <br />
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Product Name")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Price)
+        </th>
+        <th>
+            @Html.DisplayName(" Image ")
+        </th>
+        <th>@Html.DisplayName(" ")</th>
+    </tr>
+
+@foreach (var item in Model) {
+    //Hold the Address of the Image File to use later
+    string hold = item.ImageFile;
+
+    <tr>
+        <!-- Product Name -->
+        <td class="col-md-2">
+            @Html.DisplayFor(modelItem => item.ProductName)
+        </td>
+        <!-- Description -->
+        <td class="col-md-6">
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+
+        @{
+            //Put the price into a string in order to add a "$" symbol to the price
+            decimal temp = (decimal)item.Price;
+            string cost = "$" + temp.ToString("0.00");
+        }
+        <!-- Price -->
+        <td class="col-md-1">
+            @Html.DisplayFor(modelItem => cost)
+        </td>
+        <!-- Image -->
+        <td>
+            <img src="@Url.Content(hold)" style="max-height: 200px" />
+            
+        </td>
+        <!-- Add To Cart Button -->
+        <td>
+            <button id="btn-@item.ProductID" class="btn btn-danger btn-primary" OnClick="AddItem(@item.ProductID)" data-assigned-id="@item.ProductID">Add to Cart</button>
+        </td>
+        <!-- Product Details Link -->
+        <td>
+            @Html.ActionLink("Details", "Details", new { id = item.ProductID })
+        </td>
+    </tr>
+}
+</table>
+<!-- Paged List Control -->
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page, search = Request.QueryString["search"] }))
+
+    <!-- Display "No Results" if the model contains no results to display -->
+@if (Model.Count() == 0)
+{
+    <br />
+    <h5>No Results</h5>
+    <br />
+
+}

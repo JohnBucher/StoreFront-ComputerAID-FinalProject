@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Project2_v._2._0.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="PageWrapper">
+        <!-- Header, used as the Title of my web pages -->
+        <div id="Header"><a href="~/Default.aspx" runat="server"></a>STOREFRONT<a href="~/Default.aspx" runat="server"></a></div>
+        <!-- Menu, menu that allows for easier navigation to main pages -->
+        <div id="MenuWrapper"><a href="Default.aspx">Home</a> / <a href="CustomersAdmin.aspx">CustomersAdmin</a> / <a href="ProductsAdmin.aspx">ProductsAdmin</a></div>
+        <!-- MainContent, where the main content goes, below the menu but above the footer (if one is used) -->
+            <div id="MainContent">
+                <asp:ContentPlaceHolder id="cpMainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        <!-- Footer, information about the web pages at the bottom of the page. Currently disabled because having a footer enabled makes
+            styling harder-->
+        <!-- <div id="Footer">Store-Front Project / Author: John Bucher</div> -->
+    </div>
+    </form>
+</body>
+</html>

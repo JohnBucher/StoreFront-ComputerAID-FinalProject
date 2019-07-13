@@ -1,0 +1,70 @@
+﻿
+@model IEnumerable<Store.Data.ShoppingCartProduct>
+
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+
+<h3>Shopping Cart</h3>
+<!-- Partial View in charge of displaying the current shopping cart to the user before they cofnirm their order -->
+<div id="divProducts">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayName("Product Name")
+            </th>
+            <th>
+                @Html.DisplayName("Quantity")
+            </th>
+
+            <th>
+                @Html.DisplayName("Price")
+            </th>
+            <th>
+                @Html.DisplayName("Image")
+            </th>
+            <th>
+                @Html.DisplayName("Sub Total")
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            //Hold the Address of the Image File to use later
+            string hold = item.Product.ImageFile;
+
+            <tr id="CartItem-@item.ShoppingCartProductID">
+                <!-- ProductName -->
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.ProductName)
+                </td>
+                <!-- Quantity -->
+                <td id="inputTextBox-@item.ShoppingCartProductID">
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <!-- Price -->
+                <td>
+                    @{
+                        decimal temp2 = (decimal)(item.Product.Price);
+                        string give2 = "$" + temp2.ToString("0.00");
+                    }
+                    @Html.DisplayFor(modelItem => give2)
+                </td>
+                <!-- Image -->
+                <td>
+                    <img src="@Url.Content(hold)" style="max-height: 120px" />
+                </td>
+                <!-- Subtotal -->
+                <td id="subTotalContainer-@item.ShoppingCartProductID">
+                    @{
+                        decimal temp3 = (decimal)(item.Product.Price * item.Quantity);
+                        string give3 = "$" + temp3.ToString("0.00");
+                    }
+                    @Html.DisplayFor(modelItem => give3)
+                </td>
+            </tr>
+                        }
+    </table>
+
+    <!-- Total Cost of all items -->
+    <h4> Total: </h4>
+    <h4 id="totalCount" style="float: left">$@Session["Total"]</h4>
+</div>

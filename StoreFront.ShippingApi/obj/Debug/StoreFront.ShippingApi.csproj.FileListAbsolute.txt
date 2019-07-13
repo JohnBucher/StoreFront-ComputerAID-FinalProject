@@ -1,0 +1,162 @@
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\ApplicationInsights.config
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csc.exe
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csc.exe.config
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csc.rsp
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csi.exe
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csi.rsp
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.AppContext.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\vbc.exe
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\vbc.exe.config
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\vbc.rsp
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\StoreFront.ShippingApi.dll.config
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\StoreFront.ShippingApi.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\StoreFront.ShippingApi.pdb
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Antlr3.Runtime.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\EntityFramework.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\EntityFramework.SqlServer.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.Web.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Newtonsoft.Json.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Store.Data.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Net.Http.Formatting.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Helpers.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Http.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Http.WebHost.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Mvc.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Optimization.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Razor.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\WebGrease.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Store.Data.pdb
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Store.Data.dll.config
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\EntityFramework.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\EntityFramework.SqlServer.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Newtonsoft.Json.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Net.Http.Formatting.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Helpers.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Http.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Http.WebHost.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Mvc.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Optimization.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Razor.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Antlr3.Runtime.pdb
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.Web.xml
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\obj\Debug\StoreFront.ShippingApi.csprojResolveAssemblyReference.cache
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\obj\Debug\StoreFront.ShippingApi.dll
+C:\Users\bucherj\Documents\Visual Studio 2017\Projects\Project2 v.2.0\StoreFront.ShippingApi\obj\Debug\StoreFront.ShippingApi.pdb
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\ApplicationInsights.config
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csc.exe
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csc.exe.config
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csc.rsp
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csi.exe
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\csi.rsp
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.AppContext.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.Collections.Immutable.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.IO.FileSystem.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\vbc.exe
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\vbc.exe.config
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\vbc.rsp
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\VBCSCompiler.exe
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\roslyn\VBCSCompiler.exe.config
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\StoreFront.ShippingApi.dll.config
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\StoreFront.ShippingApi.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\StoreFront.ShippingApi.pdb
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Antlr3.Runtime.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\EntityFramework.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\EntityFramework.SqlServer.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.DependencyCollector.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.Web.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.WindowsServer.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.ApplicationInsights.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.Web.Infrastructure.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Newtonsoft.Json.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Store.Data.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Net.Http.Formatting.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Helpers.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Http.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Http.WebHost.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Mvc.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Optimization.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Razor.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.Deployment.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.Razor.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\WebGrease.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Store.Data.pdb
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Store.Data.dll.config
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\EntityFramework.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\EntityFramework.SqlServer.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Newtonsoft.Json.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Net.Http.Formatting.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Helpers.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Http.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Http.WebHost.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Mvc.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Optimization.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.Razor.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.Deployment.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\System.Web.WebPages.Razor.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Antlr3.Runtime.pdb
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.ApplicationInsights.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.DependencyCollector.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.WindowsServer.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\bin\Microsoft.AI.Web.xml
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\obj\Debug\StoreFront.ShippingApi.csprojAssemblyReference.cache
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\obj\Debug\StoreFront.ShippingApi.csproj.CoreCompileInputs.cache
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\obj\Debug\StoreFront.ShippingApi.csproj.CopyComplete
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\obj\Debug\StoreFront.ShippingApi.dll
+E:\ComputerAID Files\Project2 v.2.0\StoreFront.ShippingApi\obj\Debug\StoreFront.ShippingApi.pdb

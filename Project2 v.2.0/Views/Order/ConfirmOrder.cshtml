@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Store.Data.Address>
+
+@{
+    ViewBag.Title = "ConfirmOrder";
+    Layout = "~/Views/Layouts/_Layout1.cshtml";
+}
+
+<h2>ConfirmOrder</h2>
+<br />
+<!-- Display the information pertaining to the selected address and the shopping cart will be displayed using a partial view -->
+<table class="table">
+    <tr>
+        <!-- Address 1 -->
+        <th>
+            @Html.DisplayNameFor(model => model.Address1)
+        </th>
+        <!-- Address 2 -->
+        <th>
+            @Html.DisplayNameFor(model => model.Address2)
+        </th>
+        <!-- Address 3 -->
+        <th>
+            @Html.DisplayNameFor(model => model.Address3)
+        </th>
+        <!-- City -->
+        <th>
+            @Html.DisplayNameFor(model => model.City)
+        </th>
+        <!-- Zip Code -->
+        <th>
+            @Html.DisplayNameFor(model => model.ZipCode)
+        </th>
+        <!-- IsBilling -->
+        <th>
+            @Html.DisplayNameFor(model => model.IsBilling)
+        </th>
+        <!-- IsShipping -->
+        <th>
+            @Html.DisplayNameFor(model => model.IsShipping)
+        </th>
+        <!-- State -->
+        <th>
+            @Html.DisplayNameFor(model => model.State.StateAbbrev)
+        </th>
+        <!-- UserName -->
+        <th>
+            @Html.DisplayNameFor(model => model.User.UserName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <!-- Address 1 -->
+        <td>
+            @Html.DisplayFor(modelItem => item.Address1)
+        </td>
+        <!-- Address 2 -->
+        <td>
+            @Html.DisplayFor(modelItem => item.Address2)
+        </td>
+        <!-- Address 3 -->
+        <td>
+            @Html.DisplayFor(modelItem => item.Address3)
+        </td>
+        <!-- City -->
+        <td>
+            @Html.DisplayFor(modelItem => item.City)
+        </td>
+        <!-- Zip Code -->
+        <td>
+            @Html.DisplayFor(modelItem => item.ZipCode)
+        </td>
+        <!-- IsBilling -->
+        <td>
+            @Html.DisplayFor(modelItem => item.IsBilling)
+        </td>
+        <!-- IsShipping -->
+        <td>
+            @Html.DisplayFor(modelItem => item.IsShipping)
+        </td>
+        <!-- State -->
+        <td>
+            @Html.DisplayFor(modelItem => item.State.StateAbbrev)
+        </td>
+        <!-- UserName -->
+        <td>
+            @Html.DisplayFor(modelItem => item.User.UserName)
+        </td>
+    </tr>
+}
+
+</table>
+
+<br />
+<br />
+<!-- Partial view dedicated to displaying the current Shopping Cart to the user before they confirm their order -->
+@Html.Action("PartialShopCart")
+<br style="clear:both" />
+
+<!-- Place Order button that confirms and places the order -->
+<div style="float: right">
+    <button id="placeOrderBtn" class="btn btn-danger btn-primary" OnClick="window.location.href='@Url.Action("ConfirmationMessage", "Order")'">Place Order</button>
+</div>
+<br style="clear:both" />

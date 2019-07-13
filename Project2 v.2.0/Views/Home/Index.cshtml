@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>STOREFRONT</h1>
+</div>
+
+<h3>Featured Items:</h3>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        string hold = item.ImageFile;
+        string title = (item.ProductName).ToString();
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <div class="thumbnail">
+                    <br/>
+                    <img src="@Url.Content(hold)" style="max-height: 400px" />
+                    <div class="caption">
+                        <h5>@title</h5>
+
+                        @using (Html.BeginForm("Details", "Products", FormMethod.Post))
+                        {
+                            int proI = item.ProductID;
+                            <!-- Link to go from Featured Item to Details page -->
+                            @Html.ActionLink("More Information -->", "Details", "Products", new { id = proI }, null)
+                        }
+
+                        </div>
+                </div>
+            </div>
+    }
+</div>

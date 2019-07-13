@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "ConfirmationMessage";
+    Layout = "~/Views/Layouts/_Layout1.cshtml";
+}
+
+@section scripts
+{
+    <script>
+        //Set the Cart quantity to 0 because all ShoppingCart items have been ordered and no longer exist in the Cart
+        $('#quantityContainer').html('<a href="/ShoppingCart/Cart">(0) Shopping Cart</a>');
+    </script>
+}
+
+<!-- Congratulations Message -->
+<h2>Order Confirmation</h2>
+<br />
+<p>Congratulations! Your order has been submitted.</p>
+

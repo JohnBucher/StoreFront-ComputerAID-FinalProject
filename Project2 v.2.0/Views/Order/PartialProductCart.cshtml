@@ -1,0 +1,92 @@
+﻿
+@model IEnumerable<Store.Data.OrderProduct>
+
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js" type="text/javascript"></script>
+
+<h3>Shopping Cart</h3>
+<!-- Partial View displaying the list of Order Products Associated with this specific order -->
+<div id="divProducts">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayName("OrderProductID")
+            </th>
+            <th>
+                @Html.DisplayName("ProductID")
+            </th>
+
+            <th>
+                @Html.DisplayName("Product Name")
+            </th>
+
+            <th>
+                @Html.DisplayName("Quantity")
+            </th>
+            <th>
+                @Html.DisplayName(" ")
+            </th>
+            <th>
+                @Html.DisplayName("Sub Total")
+            </th>
+            <th>
+                @Html.DisplayName("Image")
+            </th>
+            <th>
+                @Html.DisplayName(" ")
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            //Hold the Address of the Image File to use later
+            string hold = item.Product.ImageFile;
+
+            <tr id="CartItem-@item.OrderProductID">
+                <!-- OrderProductID -->
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderProductID)
+                </td>
+                <!-- ProductID -->
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductID)
+                </td>
+                <!-- ProductName -->
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.ProductName)
+                </td>
+                <!-- QuantityTextBox -->
+                <td id="inputTextBox-@item.OrderProductID">
+                    <input type="text" class="form-control" id="textInput-@item.OrderProductID" value="@item.Quantity" size="1">
+                </td>
+                <!-- UpdateCartButton -->
+                <th>
+                    <button id="upDateCart-@item.OrderProductID" class="btn btn-danger btn-primary"
+                            OnClick="UpdateItem(@item.OrderProductID)" data-assigned-id="@item.Quantity">Update Order</button>
+                </th>
+                <!-- Subtotal -->
+                <td id="subTotalContainer-@item.OrderProductID">
+                    @{ 
+                        decimal temporarySubtotal = Convert.ToDecimal(item.Quantity * item.Price);
+                        string display = temporarySubtotal.ToString("0.00");
+                    }
+                    $@display
+                </td>
+                <!-- Image -->
+                <td>
+                    <img src="@Url.Content(hold)" style="max-height: 120px" />
+                </td>
+                <!-- DeleteButton -->
+                <td>
+                    @{
+                        Session["ShoppingCartProductID"] = item.OrderProductID;
+                    }
+                    <button id="btn-@item.OrderProductID" class="btn btn-danger btn_remove"
+                            OnClick="RemoveItem(@item.OrderProductID)" data-assigned-id="@item.OrderProductID">
+                        X
+                    </button>
+                </td>
+                <td></td>
+            </tr>
+        }
+    </table>
+</div>
